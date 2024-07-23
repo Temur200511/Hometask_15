@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.background {
+    background-color: rgb(116, 198, 157);
+}
+header {
+ 
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+padding-top: 25px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  align-items: center;
+}
+li {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 23px;
+  color: #fff;
+}
+p {
+  padding-top: 10px;
+  font-size: 40px;
+  color: #fff;
+  line-height: 55px;
+}
+.text {
+  line-height: 25px;
+  font-size: medium;
+  padding-top: 30px;
+}
+
+.second{
+    padding-bottom: 70px;
+}
+
+
+.hero_container {
+    display: flex;
+    align-items: center;
+}
+button {
+padding: 10px 20px;
+  margin-top: 30px;
+  border: 1px solid white;
+  margin-bottom: 80px;
+}
+
+.second_row {
+
+  margin-top: 40px;
+  text-align: center;
+
+}
+h3{
+    font-family: "Work Sans", sans-serif;
+   color: rgb(116, 198, 157);
+   letter-spacing: 5px;
+}
+.under_partner {
+  color: black;
+}
+.under_under_partner {
+  color: black;
+  line-height: 80px;
+  max-width: 411px;
+  margin: auto;
+  line-height: 125%;
+  font-size: 20px;
+}
+.img_2 {
+  padding-top: 55px;
+  gap: 68px;
+}
+
+.but_2 {
+  background-color:rgb(33, 37, 41);
+  color: white;
+  font-size: 30px;
+  padding: 13px 29.5px 10px 29.5px;
+
+}
+a{
+  text-decoration: none;
+}
+
+
+.third_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.three_p{
+    max-width: 630px;
+padding-left: 130px;
+
+}
+
+.third_row{
+color: rgb(33, 37, 41);
+}
+
+.third_text2{
+    padding-left: 110px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+color: rgba(33, 37, 41, 0.5);
+font-size: 15px;
+}
+.third_text{
+    font-family: Crimson Text;
+    color: rgb(33, 37, 41);
+    font-size: 40px;
+    padding-left: 110px;
+    padding-top: 88px;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+.learn_more{
+    padding:   13px  29.5px 10px 29.5px ;
+    margin-left: 110px;
+    background-color: rgb(33, 37, 41);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 125%;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+}
+
+.four_row{
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.four_text{
+
+  font-family: Crimson Text;
+  color: rgb(33, 37, 41);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 125%;
+}
+.four_text2{
+  font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+color: rgba(33, 37, 41, 0.5);
+font-size: 15px;
+padding-top: 16px;
+
+}
+.fourth_t{
+  color: rgb(33, 37, 41);
+padding: 155px 110px 155px 141px;
+}
+
+.four_picture
+{
+  padding: -3.37px 119px 110px 720px;
+max-width: 600px;
+}
+
+.learn_more2
+{
+  background-color: rgb(33, 37, 41);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  line-height: 125%;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+
+
+}
+
+.our_team{
+  font-family: "Work Sans", sans-serif;
+   color: rgb(116, 198, 157);
+   letter-spacing: 5px;
+   padding-bottom: 16px;
+}
+.talents{
+  color: rgb(33, 37, 41);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125px;
+  padding-bottom: 16px;
+  
+}
+
+.container__5th{
+  text-align: center;
+  padding: 2px, 0px, 0px, 0px
+
+}
+
+.last_p{
+  font-size: 20px;
+  line-height: 125%;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  font-family: "Work Sans", sans-serif;
+  padding-bottom: 45px;
+}
+
+.group_28{
+  max-width: 1176px;
+
+}
+.view_t{
+  margin: 45px 502px 0 502px;
+  background-color: rgb(33, 37, 41);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  line-height: 125%;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+}
+
+.Last_row{
+  display: flex;
+  justify-content: center;
+  color: rgb(116, 198, 157);
+  margin-top: 51px;
+max-width: 1440px;
+margin-bottom: 100px;
+}
+
+.last_pic{
+  padding: 51px 131px 49px 131px;
+  background-color: rgb(116, 198, 157);
+}
