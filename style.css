@@ -4,9 +4,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+
 }
 
-.container {
+.container 
+{
   max-width: 1200px;
   margin: auto;
 }
@@ -112,7 +115,6 @@ a{
 
 .three_p{
     max-width: 630px;
-padding-left: 130px;
 
 }
 
@@ -121,17 +123,16 @@ color: rgb(33, 37, 41);
 }
 
 .third_text2{
-    padding-left: 110px;
     font-family: "Work Sans", sans-serif;
     font-weight: 400;
 color: rgba(33, 37, 41, 0.5);
 font-size: 15px;
+line-height: 125%;
 }
 .third_text{
     font-family: Crimson Text;
     color: rgb(33, 37, 41);
     font-size: 40px;
-    padding-left: 110px;
     padding-top: 88px;
     font-weight: 700;
     line-height: 125%;
@@ -139,7 +140,6 @@ font-size: 15px;
 
 .learn_more{
     padding:   13px  29.5px 10px 29.5px ;
-    margin-left: 110px;
     background-color: rgb(33, 37, 41);
     color: rgb(255, 255, 255);
     font-size: 20px;
@@ -169,12 +169,12 @@ font-size: 15px;
     font-weight: 400;
 color: rgba(33, 37, 41, 0.5);
 font-size: 15px;
+line-height: 125%;
 padding-top: 16px;
-
+width: 470px;
 }
 .fourth_t{
   color: rgb(33, 37, 41);
-padding: 155px 110px 155px 141px;
 }
 
 .four_picture
@@ -196,17 +196,22 @@ max-width: 600px;
 }
 
 .our_team{
-  font-family: "Work Sans", sans-serif;
-   color: rgb(116, 198, 157);
-   letter-spacing: 5px;
-   padding-bottom: 16px;
+  /* Typography / Label / Bold */
+color: rgb(116, 198, 157);
+font-family: Work Sans, sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 125%;
+letter-spacing: 5px;
+text-align: center;
+text-transform: uppercase;
+margin-top: 62px;
 }
 .talents{
   color: rgb(33, 37, 41);
   font-weight: 700;
   font-size: 40px;
   line-height: 125px;
-  padding-bottom: 16px;
   
 }
 
@@ -225,12 +230,7 @@ max-width: 600px;
   padding-bottom: 45px;
 }
 
-.group_28{
-  max-width: 1176px;
-
-}
 .view_t{
-  margin: 45px 502px 0 502px;
   background-color: rgb(33, 37, 41);
   color: rgb(255, 255, 255);
   font-size: 20px;
@@ -251,4 +251,176 @@ margin-bottom: 100px;
 .last_pic{
   padding: 51px 131px 49px 131px;
   background-color: rgb(116, 198, 157);
+  margin: auto;
+}
+
+.menu{
+  display: none;
+}
+
+.icons{
+  padding-top: 55px;
+  padding-bottom: 55px;
+  display: flex;
+  gap: 69px;
+}
+
+.three_p{
+  width: 470px;
+}
+
+.third_row{
+  display: flex;
+  gap: 110px;
+}
+
+.fourth_row_2{
+  display: flex;
+  align-items: center;
+  gap: 110px;
+}
+
+.fourth_t{
+  width: 470px;
+}
+
+.four_picture{
+  width: 600px;
+}
+
+.fifth_text{
+  text-align: center;
+  padding-top: 16px;
+}
+
+.our_team{
+
+}
+
+.last_r{
+
+width: 1178px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 51px;
+padding-bottom: 49px;
+}
+
+.content{
+  /* Typography/Sub-Heading/Regular */
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 125%;
+letter-spacing: 0px;
+white-space: nowrap;
+
+}
+
+.background_2{
+  background-color: rgb(116, 198, 157);
+
+}
+
+.box_ic{
+display: flex;
+gap: 20px;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+@media (max-width:375px)
+ {
+  
+.start{
+  width: 129px;
+}
+ul{
+  display: none;
+}
+
+.menu{
+  display: block;
+}
+
+.hero_container{
+  flex-direction: column-reverse;
+  padding-top: 32px;
+}
+
+.ok{
+  width: 335px;
+}
+
+.container{
+ padding: 20px;
+}
+
+.text_2{
+  font-size: 24px;
+}
+
+.hero_container{
+  padding-bottom: 40px;
+}
+
+.under_partner{
+  font-size: 28px;
+}
+
+.icons{
+  flex-direction: column;
+}
+
+.third_row{
+  flex-direction: column;
+  width: 335px;
+  
+}
+
+.thir_row{
+  width: 334px;
+  padding-left: 0;
+}
+
+.fourth_row_2{
+  flex-direction: column-reverse;
+}
+.four_text2{
+  width: 334px;
+
+}
+.fourth_t{
+  width: 334px;
+
+}
+
+.four_picture{
+  width: 334px;
+
+}
+
+.view_t{
+  margin-top: 45px;
+  margin-left: 50px;
+}
+
+.last_r
+{
+  flex-direction: column;
+width: 375px;
+gap: 20px;
+}
+
+
+
+
 }
